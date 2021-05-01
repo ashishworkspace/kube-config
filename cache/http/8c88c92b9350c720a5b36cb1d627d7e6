@@ -1,0 +1,9 @@
+HTTP/2.0 200 OK
+Content-Length: 864
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Sat, 01 May 2021 14:42:16 GMT
+X-Kubernetes-Pf-Flowschema-Uid: cdacc86a-a9b2-411d-a315-66d2d68aad81
+X-Kubernetes-Pf-Prioritylevel-Uid: f59c5e06-e859-4780-8bf9-602b62c2c3ea
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"networking.k8s.io/v1","resources":[{"name":"ingressclasses","singularName":"","namespaced":false,"kind":"IngressClass","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"l/iqIbDgFyQ="},{"name":"ingresses","singularName":"","namespaced":true,"kind":"Ingress","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["ing"],"storageVersionHash":"39NQlfNR+bo="},{"name":"ingresses/status","singularName":"","namespaced":true,"kind":"Ingress","verbs":["get","patch","update"]},{"name":"networkpolicies","singularName":"","namespaced":true,"kind":"NetworkPolicy","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["netpol"],"storageVersionHash":"YpfwF18m1G8="}]}

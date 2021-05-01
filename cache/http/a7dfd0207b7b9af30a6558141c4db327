@@ -1,0 +1,9 @@
+HTTP/2.0 200 OK
+Content-Length: 658
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Sat, 01 May 2021 14:42:16 GMT
+X-Kubernetes-Pf-Flowschema-Uid: cdacc86a-a9b2-411d-a315-66d2d68aad81
+X-Kubernetes-Pf-Prioritylevel-Uid: f59c5e06-e859-4780-8bf9-602b62c2c3ea
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"certificates.k8s.io/v1beta1","resources":[{"name":"certificatesigningrequests","singularName":"","namespaced":false,"kind":"CertificateSigningRequest","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["csr"],"storageVersionHash":"95fRKMXA+00="},{"name":"certificatesigningrequests/approval","singularName":"","namespaced":false,"kind":"CertificateSigningRequest","verbs":["get","patch","update"]},{"name":"certificatesigningrequests/status","singularName":"","namespaced":false,"kind":"CertificateSigningRequest","verbs":["get","patch","update"]}]}
